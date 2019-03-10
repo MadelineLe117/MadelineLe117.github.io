@@ -6,3 +6,10 @@ console.log('OK');
 function myFunction(x) {
     x.classList.toggle("change");
   }
+// Lightgallery
+$('gallery-1').lightGallery({
+    selector: a
+
+
+
+});

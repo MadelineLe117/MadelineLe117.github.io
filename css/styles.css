@@ -2,11 +2,120 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
-}
-
-* {
-  outline: 1px dotted black;
+  background: linear-gradient(black, #1A1A5E, #242483, #3434B0) fixed;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: white;
 }
 
 /* Your Awesome Scripts */
+/*Header*/
+header {
+  position: relative;
+  display: flex;
+ 
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  height: 50px;
+  
+}
+
+
+p {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px;
+  float: left;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+a {
+  float: right;
+  margin: 20px;
+  position: relative;
+  bottom: 20px;
+  
+ 
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  
+}
+
+p:hover, a:hover {
+  opacity: .5;
+  
+  
+}
+
+div.menubutton {
+  cursor: pointer; 
+  margin-top: 5px;
+  position: absolute;
+  right: 300px;
+  
+}
+
+.bar1, .bar2, .bar3{
+  width: 50px;
+  height: 5px;
+  background-color:white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    display: none;
+  }
+  div.menubutton {
+    display: block;
+  }
+}
+
+/*Title Page*/
+titles {
+  float: left;
+  margin-left: 50px;
+  margin-top: 200px;
+
+}
+
+#moon { 
+  width: 500px;
+  height: 500px;
+
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+h3 {
+  float: right;
+  margin-right: 60px;
+  margin-top: 260px;
+  font-size: 40px;
+
+}
+

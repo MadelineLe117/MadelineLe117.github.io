@@ -8,6 +8,24 @@ body {
 }
 
 /* Your Awesome Scripts */
+
+/*Portfolio Styling*/
+
+.lg-backdrop {
+  background-color: pink;
+
+}
+
+.lg-toolbar {
+  background: white;
+
+}
+
+.lg-image {
+  box-shadow: 0 0 10px gray;
+
+}
+
 /*Header*/
 header {
   position: relative;
@@ -106,6 +124,7 @@ titles {
 
 
 }
+
 
 h1 {
   font-size: 50px;

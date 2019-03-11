@@ -8,8 +8,17 @@ function myFunction(x) {
   }
 // Lightgallery
 $('gallery-1').lightGallery({
-    selector: a
+    thumbnail: false,
+    share: false,
+    mode: 'lg-tube',
+    speed: 300
 
+});
 
+$('gallery-2').lightGallery({
+    share: false,
+    download: false,
+    mode: 'lg-scale-up',
+    speed: 5000
 
 });

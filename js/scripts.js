@@ -22,3 +22,17 @@ $('gallery-2').lightGallery({
     speed: 5000
 
 });
+
+//Footer 
+
+// Get Current Year
+var today = new Date();
+// Store Current Year
+var year = today.getFullYear(); 
+// Check checl
+console.log( today, year  );
+
+
+// Show Current Year
+$('span').text( year );
+

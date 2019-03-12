@@ -144,6 +144,40 @@ h3 {
 
 }
 
+/*About Me*/
+#profile {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border-color: white;
+  position: absolute;
+  left: 580px;
+  top: 750px;
+}
+
+div.classes {
+  float: right;
+  position: absolute;
+  top: 700px;
+  left: 750px;
+  margin: 10px 0;
+}
+
+div.skills {
+  float: right;
+  position: absolute;
+  top: 700px;
+  left: 1010px;
+  margin: 10px 0;
+}
+
+
+/*Contact Me*/
+form {
+  margin: 5;
+  width: 25%;
+}
+
 /*Footer*/
 
 #footer {
@@ -151,4 +185,5 @@ h3 {
   bottom: 0;
   width: 100%;
   text-align: center;
+  font-family: 'Encode Sans Condensed', sans-serif;
 }

@@ -2,10 +2,21 @@
 console.log('OK');
 
 // Your Awesome Scripts
-// Header Button
-function myFunction(x) {
+
+// Menu Button
+function menuButton(x) {
     x.classList.toggle("change");
-  }
+}
+
+function toggleNav() {
+    var x = document.getElementById("myNav");
+    if (x.style.height === "100%") {
+    x.style.height = "0%";
+    } 
+    else {
+    x.style.height = "100%";
+}}
+
 // Lightgallery
 $('gallery-1').lightGallery({
     thumbnail: false,
@@ -23,7 +34,8 @@ $('gallery-2').lightGallery({
 
 });
 
-//Footer 
+
+// Footer
 
 // Get Current Year
 var today = new Date();

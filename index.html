@@ -28,28 +28,41 @@
 
 </head>
 <header>
+    <!--Menu Button-->
+    <header id="top">
+        <div class ='menu'onclick="menuButton(this);toggleNav()">
+            <div class = "bar1"></div>
+            <div class = "bar2"></div>
+            <div class = "bar3"></div>
+            </div>
+        </div>
+       <div class="container">
+         <nav id="myNav"class="overlay">
+            <div class="overlayContent">
+                <a href="#">CONTACT ME</a>
+                <a href="#">PORTFOLIO</a>
+                <a href="#">ABOUT ME</a>
+                <a href="#">HOME</a>
+            </div>
+        </nav>
+    </div>
+    </header>
     <div class="navbar">
-    <p class="name"<a href="index.html">Madeline&nbsp;Le</a></p>
+    <p class="name">Madeline&nbsp;Le</p>
   <nav>
       <a href="#"><img src="http://cofarming.info/wp-content/uploads/2017/01/facebook-icon-preview-1-400x400.png"></a>
       <a href="#"><img src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png"></a>
       <a href="#"><img src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d083160.png"></a>
-     <div class="menubutton" onclick="myFunction(this)">
-       <div class="bar1"></div>
-       <div class="bar2"></div>
-       <div class="bar3"></div>
-       </div>
-    </nav>
+      </nav>
     </div>
-    </div>
-  </header>
+    
 <body>
     
     <titles>
         <h1>MADELINE LE</h1>
         <h2>Technical Writer | Web Designer.</h2>
         </titles>
-        <img id="moon"<img src="img/moon.png" alt="moon">
+        <img src="img/moon.png" id="moon"/>
      
         <h3>WEBSITE PORTFOLIO</h3>
 
@@ -82,7 +95,7 @@
             <h1>Portfolio</h1>
     
             <h1>Contact Me</h1>
-            
+
             <form action="https://formspree.io/madelinele117@gmail.com" method="POST">
         
                 <!--Visible-->
@@ -100,13 +113,11 @@
                 <!--Hidden-->
                 <input type ="hidden" name="_next" value="/"/>
             </form>
-        </titles>
 
-
-
-        
+        <footer>
         <div id="footer"> &copy; Copyright 2000 - <span>YEAR</span>
         </footer>
+        </titles>
 
     <!-- jQuery Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

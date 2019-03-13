@@ -27,11 +27,6 @@ body {
 }
 
 /*Header*/
-header {
-  position: relative;
-  display: flex;
- 
-}
 
 .navbar {
   overflow: hidden;
@@ -46,7 +41,7 @@ header {
 p {
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   margin: 10px;
   float: left;
   font-family: 'Encode Sans Condensed', sans-serif;
@@ -55,10 +50,11 @@ p {
 a {
   float: right;
   margin: 20px;
+  right: 100px;
   position: relative;
   bottom: 20px;
   
- 
+
 }
 
 img {
@@ -67,48 +63,87 @@ img {
   
 }
 
-p:hover, a:hover {
+a:hover {
   opacity: .5;
   
   
 }
 
-div.menubutton {
-  cursor: pointer; 
-  margin-top: 5px;
-  position: absolute;
-  right: 300px;
-  
+/*Menu Button*/
+
+#top {
+  float: right;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+
 }
 
-.bar1, .bar2, .bar3{
+.bar1, .bar2, .bar3 {
+  background-color: white;
   width: 50px;
   height: 5px;
-  background-color:white;
-  margin: 6px 0;
+  margin-bottom: 6px;
   transition: 0.4s;
 }
 
 .change .bar1 {
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px);
+  
 }
 
 .change .bar2 {
   opacity: 0;
+  
 }
 
 .change .bar3 {
-   transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+  
 }
 
-@media screen and (max-width: 500px) {
-  nav {
-    display: none;
-  }
-  div.menubutton {
-    display: block;
-  }
+
+
+/* Navigation */
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 0;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #072142, #8c2b7a 42%, #ff4d5a) fixed;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
 }
+
+.overlayContent {
+  position: relative;
+  text-align: center;
+  top: 25%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.overlay a{
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: whitesmoke;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.overlay a:hover,a:active {
+  color: darkgrey;
+
+}
+
+
 
 /*Title Page*/
 titles {

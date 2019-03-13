@@ -8,6 +8,7 @@ function menuButton(x) {
     x.classList.toggle("change");
 }
 
+
 function toggleNav() {
     var x = document.getElementById("myNav");
     if (x.style.height === "100%") {
@@ -15,6 +16,8 @@ function toggleNav() {
     } 
     else {
     x.style.height = "100%";
+
+
 }}
 
 // Lightgallery

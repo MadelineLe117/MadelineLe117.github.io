@@ -6,8 +6,8 @@ console.log('OK');
 // Menu Button
 function menuButton(x) {
     x.classList.toggle("change");
-}
 
+}
 
 function toggleNav() {
     var x = document.getElementById("myNav");
@@ -21,21 +21,14 @@ function toggleNav() {
 }}
 
 // Lightgallery
-$('gallery-1').lightGallery({
-    thumbnail: false,
-    share: false,
+$('#gallery').lightGallery({
+    thumbnail: true,
+    share: true,
     mode: 'lg-tube',
     speed: 300
 
 });
 
-$('gallery-2').lightGallery({
-    share: false,
-    download: false,
-    mode: 'lg-scale-up',
-    speed: 5000
-
-});
 
 
 // Footer

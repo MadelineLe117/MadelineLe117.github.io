@@ -9,22 +9,6 @@ body {
 
 /* Your Awesome Scripts */
 
-/*Portfolio Styling*/
-
-.lg-backdrop {
-  background-color: pink;
-
-}
-
-.lg-toolbar {
-  background: white;
-
-}
-
-.lg-image {
-  box-shadow: 0 0 10px gray;
-
-}
 
 /*Header*/
 
@@ -209,7 +193,37 @@ div.skills {
 
 /*Portfolio*/
 
+.lg-backdrop {
+  background-color: none;
 
+}
+
+.lg-toolbar {
+  background: white;
+
+}
+
+.lg-image {
+  box-shadow: 0 0 10px gray;
+
+}
+
+div.lightgallery {
+  margin: 10px 50px;
+
+}
+
+.lightgallery img {
+  width: 300px;
+  height: auto;
+  padding: 5px;
+  transition: 1s;
+
+}
+
+.lightgallery img:hover{
+  transform: scale(1.1);
+}
 
 /*Contact Me*/
 

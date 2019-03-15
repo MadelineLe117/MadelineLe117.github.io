@@ -11,17 +11,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicons/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 
 <!-- Normalize CSS via CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <!-- Required Plugin Stylesheets -->    
-    
+    <link rel="stylesheet" href="/css/lightgallery.min.css">
+    <link rel="stylesheet" href="/css/lg-transitions.min.css">
 <!-- My Awesome Styling -->
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
@@ -93,7 +94,15 @@
             <img src="img/madeline.jpg" id="profile"/>
        <div id="portfolio"></div>
             <h1>Portfolio</h1>
+        <div class="lightgallery">
+            <img src="img/" id="gallery"/>
+            <img src="img/" id="gallery"/>
+            <img src="img/" id="gallery"/>
+            <img src="img/" id="gallery"/>
+            <img src="img/" id="gallery"/>
+            <img src="img/" id="gallery"/>
         
+        </div>
         
         <div id="contactme"></div>
             <h1>Contact Me</h1>
@@ -125,6 +134,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Plugins(s) -->
     
+    <!--Lightgallery Plugins-->
+    <script src="/js/lightgallery-all.min.js"></script>
     <!-- My Scripts -->
     <script src="js/scripts.js"></script>
 </body>

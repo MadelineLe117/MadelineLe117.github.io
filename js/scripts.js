@@ -29,6 +29,8 @@ $('#gallery').lightGallery({
 
 });
 
+$('#captions').lightGallery(); 
+
 
 
 // Footer

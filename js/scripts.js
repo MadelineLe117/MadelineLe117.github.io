@@ -29,7 +29,7 @@ $('#gallery').lightGallery({
 
 });
 
-$('#captions').lightGallery(); 
+$('.captions').lightGallery(); 
 
 
 // Footer

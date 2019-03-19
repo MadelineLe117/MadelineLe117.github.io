@@ -32,7 +32,6 @@ $('#gallery').lightGallery({
 $('#captions').lightGallery(); 
 
 
-
 // Footer
 
 // Get Current Year

@@ -194,17 +194,31 @@ div.skills {
 /*Portfolio*/
 
 .lg-backdrop {
-  background-color: none;
-
+  background-color: pink;
+  opacity: 50%;
 }
 
 .lg-toolbar {
-  background: none;
+  background: white;
 
 }
 
 .lg-image {
   box-shadow: 0 0 10px gray;
+
+}
+
+.lg-sub-html {
+  background-color: rgba(0, 0, 0, 0.45);
+  bottom: 0;
+  color: #EEE;
+  font-size: 16px;
+  left: 0;
+  padding: 10px 40px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 1080;
 
 }
 
@@ -215,9 +229,9 @@ div.lightgallery {
 }
 
 .lightgallery img {
-  width: 300px;
+  width: 250px;
   height: auto;
-  padding: 5px;
+  padding: 15px;
   transition: 1s;
 
 }
@@ -227,6 +241,10 @@ div.lightgallery {
 }
 
 /*Contact Me*/
+
+input {
+  margin-bottom: 10px;
+}
 
 form {
   margin: 5;

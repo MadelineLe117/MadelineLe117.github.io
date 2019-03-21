@@ -240,6 +240,17 @@ div.lightgallery {
   transform: scale(1.1);
 }
 
+div.writing  {
+  position: absolute;
+  left: 1050px;
+  
+}
+
+.writing a{
+  color: white;
+}
+
+
 /*Contact Me*/
 
 input {

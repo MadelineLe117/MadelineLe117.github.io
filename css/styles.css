@@ -194,14 +194,20 @@ div.skills {
 /*Portfolio*/
 
 .lg-backdrop {
-  background-color: pink;
-  opacity: 50%;
+  background-color: black;
+
 }
 
 .lg-toolbar {
-  background: white;
-
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  
 }
+
+
 
 .lg-image {
   box-shadow: 0 0 10px gray;
